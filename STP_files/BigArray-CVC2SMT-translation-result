@@ -1,0 +1,379 @@
+vganesh@chongzi:~/cvc3-20061209$ cvc2smt berkeley-examples/
+*********
+Regression level: 3
+Language: all
+Whether to produce / check proofs: depends on testcase
+PATH = /home/vganesh/cvc3-20061209/bin:/home/vganesh/bin:/home/vganesh/bin/bin:/home/vganesh/stp/bin:/home/vganesh/exe-ccs-06-final/figures:/home/vganesh/cvc3-20061209/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games
+*********
+===============================================
+berkeley-examples//testcase1.stp.cvc:
+Language: all
+Checking proofs: no
+***
+Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase1.stp.smt -indent -expResult invalid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase1.stp.cvc
+***
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  St9bad_alloc
+
+  real    0m14.728s
+  user    0m14.105s
+  sys     0m0.168s
+  Runtime: 15 sec
+  =============== End of testcase ===============
+  ===============================================
+  berkeley-examples//testcase11.stp.cvc:
+  Language: all
+  Checking proofs: no
+  ***
+  Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase11.stp.smt -indent -expResult invalid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase11.stp.cvc
+  ***
+
+  **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+  Out of memory
+
+  real    0m14.115s
+  user    0m13.901s
+  sys     0m0.212s
+  Runtime: 14 sec
+  =============== End of testcase ===============
+  ===============================================
+  berkeley-examples//testcase12.stp.cvc:
+  Language: all
+  Checking proofs: no
+  ***
+  Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase12.stp.smt -indent -expResult invalid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase12.stp.cvc
+  ***
+
+  **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+  Out of memory
+
+  real    0m14.126s
+  user    0m13.921s
+  sys     0m0.204s
+  Runtime: 14 sec
+  =============== End of testcase ===============
+  ===============================================
+  berkeley-examples//testcase13.stp.cvc:
+  Language: all
+  Checking proofs: no
+  ***
+  Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase13.stp.smt -indent -expResult invalid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase13.stp.cvc
+  ***
+
+  **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+  Out of memory
+
+  real    0m14.108s
+  user    0m13.877s
+  sys     0m0.232s
+  Runtime: 14 sec
+  =============== End of testcase ===============
+  ===============================================
+  berkeley-examples//testcase14.stp.cvc:
+  Language: all
+  Checking proofs: no
+  ***
+  Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase14.stp.smt -indent -expResult invalid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase14.stp.cvc
+  ***
+
+  **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+  Out of memory
+
+  real    0m14.137s
+  user    0m13.917s
+  sys     0m0.204s
+  Runtime: 14 sec
+  =============== End of testcase ===============
+  ===============================================
+  berkeley-examples//testcase15.stp.cvc:
+  Language: all
+  Checking proofs: no
+  ***
+  Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase15.stp.smt -indent -expResult invalid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase15.stp.cvc
+  ***
+  terminate called after throwing an instance of 'std::bad_alloc'
+    what():  St9bad_alloc
+
+    real    0m10.428s
+    user    0m10.213s
+    sys     0m0.216s
+    Runtime: 11 sec
+    =============== End of testcase ===============
+    ===============================================
+    berkeley-examples//testcase16.stp.cvc:
+    Language: all
+    Checking proofs: no
+    ***
+    Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase16.stp.smt -indent -expResult invalid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase16.stp.cvc
+    ***
+
+    **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+    Out of memory
+
+    real    0m10.477s
+    user    0m10.241s
+    sys     0m0.228s
+    Runtime: 10 sec
+    =============== End of testcase ===============
+    ===============================================
+    berkeley-examples//testcase17.stp.cvc:
+    Language: all
+    Checking proofs: no
+    ***
+    Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase17.stp.smt -indent -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase17.stp.cvc
+    ***
+
+    **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+    Out of memory
+
+    real    0m11.539s
+    user    0m11.325s
+    sys     0m0.216s
+    Runtime: 12 sec
+    =============== End of testcase ===============
+    ===============================================
+    berkeley-examples//testcase18.stp.cvc:
+    Language: all
+    Checking proofs: no
+    ***
+    Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase18.stp.smt -indent -expResult invalid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase18.stp.cvc
+    ***
+
+    **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+    Out of memory
+
+    real    0m13.458s
+    user    0m13.245s
+    sys     0m0.212s
+    Runtime: 13 sec
+    =============== End of testcase ===============
+    ===============================================
+    berkeley-examples//testcase19.stp.cvc:
+    Language: all
+    Checking proofs: no
+    ***
+    Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase19.stp.smt -indent -expResult invalid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase19.stp.cvc
+    ***
+
+    **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+    Out of memory
+
+    real    0m13.569s
+    user    0m13.381s
+    sys     0m0.188s
+    Runtime: 14 sec
+    =============== End of testcase ===============
+    ===============================================
+    berkeley-examples//testcase2.stp.cvc:
+    Language: all
+    Checking proofs: no
+    ***
+    Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase2.stp.smt -indent -expResult invalid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase2.stp.cvc
+    ***
+    terminate called after throwing an instance of 'std::bad_alloc'
+      what():  St9bad_alloc
+
+      real    0m13.932s
+      user    0m13.745s
+      sys     0m0.188s
+      Runtime: 14 sec
+      =============== End of testcase ===============
+      ===============================================
+      berkeley-examples//testcase20.stp.cvc:
+      Language: all
+      Checking proofs: no
+      ***
+      Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase20.stp.smt -indent -expResult invalid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase20.stp.cvc
+      ***
+
+      **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+      Out of memory
+
+      real    0m11.488s
+      user    0m11.285s
+      sys     0m0.204s
+      Runtime: 11 sec
+      =============== End of testcase ===============
+      ===============================================
+      berkeley-examples//testcase21.stp.cvc:
+      Language: all
+      Checking proofs: no
+      ***
+      Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase21.stp.smt -indent -expResult invalid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase21.stp.cvc
+      ***
+
+      **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+      Out of memory
+
+      real    0m11.621s
+      user    0m11.393s
+      sys     0m0.228s
+      Runtime: 12 sec
+      =============== End of testcase ===============
+      ===============================================
+      berkeley-examples//testcase3.stp.cvc:
+      Language: all
+      Checking proofs: no
+      ***
+      Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase3.stp.smt -indent -expResult invalid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase3.stp.cvc
+      ***
+
+      **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+      Out of memory
+
+      real    0m13.928s
+      user    0m13.725s
+      sys     0m0.200s
+      Runtime: 14 sec
+      =============== End of testcase ===============
+      ===============================================
+      berkeley-examples//testcase4.stp.cvc:
+      Language: all
+      Checking proofs: no
+      ***
+      Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase4.stp.smt -indent -expResult invalid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase4.stp.cvc
+      ***
+
+      **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+      Out of memory
+
+      real    0m13.948s
+      user    0m13.801s
+      sys     0m0.148s
+      Runtime: 14 sec
+      =============== End of testcase ===============
+      ===============================================
+      berkeley-examples//testcase5.stp.cvc:
+      Language: all
+      Checking proofs: no
+      ***
+      Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase5.stp.smt -indent -expResult invalid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase5.stp.cvc
+      ***
+
+      **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+      Out of memory
+
+      real    0m14.065s
+      user    0m13.841s
+      sys     0m0.224s
+      Runtime: 14 sec
+      =============== End of testcase ===============
+      ===============================================
+      berkeley-examples//testcase6.stp.cvc:
+      Language: all
+      Checking proofs: no
+      ***
+      Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase6.stp.smt -indent -expResult invalid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase6.stp.cvc
+      ***
+
+      **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+      Out of memory
+
+      real    0m14.063s
+      user    0m13.893s
+      sys     0m0.172s
+      Runtime: 14 sec
+      =============== End of testcase ===============
+      ===============================================
+      berkeley-examples//testcase7.stp.cvc:
+      Language: all
+      Checking proofs: no
+      ***
+      Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase7.stp.smt -indent -expResult valid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase7.stp.cvc
+      ***
+
+      **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+      Out of memory
+
+      real    0m13.916s
+      user    0m13.713s
+      sys     0m0.204s
+      Runtime: 14 sec
+      =============== End of testcase ===============
+      ===============================================
+      berkeley-examples//testcase8.stp.cvc:
+      Language: all
+      Checking proofs: no
+      ***
+      Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase8.stp.smt -indent -expResult valid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase8.stp.cvc
+      ***
+
+      **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+      Out of memory
+
+      real    0m13.931s
+      user    0m13.765s
+      sys     0m0.164s
+      Runtime: 14 sec
+      =============== End of testcase ===============
+      ===============================================
+      berkeley-examples//testcase9.stp.cvc:
+      Language: all
+      Checking proofs: no
+      ***
+      Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//testcase9.stp.smt -indent -expResult invalid -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//testcase9.stp.cvc
+      ***
+
+      **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+      Out of memory
+
+      real    0m13.964s
+      user    0m13.725s
+      sys     0m0.232s
+      Runtime: 14 sec
+      =============== End of testcase ===============
+      ===============================================
+      berkeley-examples//thumbnailout-noarg.9872.stp.cvc:
+      Language: all
+      Checking proofs: no
+      ***
+      Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//thumbnailout-noarg.9872.stp.smt -indent -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//thumbnailout-noarg.9872.stp.cvc
+      ***
+
+      **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+      Out of memory
+
+      real    0m14.123s
+      user    0m13.969s
+      sys     0m0.152s
+      Runtime: 14 sec
+      =============== End of testcase ===============
+      ===============================================
+      berkeley-examples//thumbnailout-spin1-2.11493.stp.cvc:
+      Language: all
+      Checking proofs: no
+      ***
+      Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//thumbnailout-spin1-2.11493.stp.smt -indent -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//thumbnailout-spin1-2.11493.stp.cvc
+      ***
+
+      **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+      Out of memory
+
+      real    0m13.985s
+      user    0m13.797s
+      sys     0m0.188s
+      Runtime: 14 sec
+      =============== End of testcase ===============
+      ===============================================
+      berkeley-examples//thumbnailout-spin1-concreteget.stp.cvc:
+      Language: all
+      Checking proofs: no
+      ***
+      Running cvc3 +old-func-syntax -tcc -output-lang smtlib +translate -dump-log /home/vganesh/cvc3-20061209/berkeley-examples//thumbnailout-spin1-concreteget.stp.smt -indent -proofs  < /home/vganesh/cvc3-20061209/berkeley-examples//thumbnailout-spin1-concreteget.stp.cvc
+      ***
+
+      **** Fatal error in /home/vganesh/cvc3-20061209/src/include/memory_manager_context.h:75 (d_nextFree != NULL)
+      Out of memory
+
+      real    0m11.496s
+      user    0m11.273s
+      sys     0m0.220s
+      Runtime: 12 sec
+      =============== End of testcase ===============
+
+      Statistics:
+      Total tests run: 23
+      Total running time: 306 sec
+      Total number of proofs checked: 0
+      Problematic cases: 0
+

@@ -1,0 +1,286 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.06 [en] (X11; I; Linux 2.0.34 i686) [Netscape]">
+   
+<title>Mobile Code Security Through Java Byte Code Modification</title><style type="text/css"><!--
+ BODY {
+    background-color: blue;
+    color: black;
+    padding-right: 0.25in;
+    padding-left: 0.25in;
+    text-align: justify;
+ }
+ A:link {
+    color: #000080;
+ }
+ A:visited {
+    color: #503050;
+ }
+ H1 {
+    text-align: center;
+    font-family: verdana, helvetica, avant-garde, sans-serif;
+ }
+ H2 {
+    margin-left: -0.25in;
+    color: #000060;
+    font-family: avant-garde, sans-serif;
+ }
+ H3 {
+    margin-left: -0.25in;
+    color: #000040;
+    font-family: avant-garde, sans-serif;
+ }
+ HR {
+    width: 10in;
+    margin-left: -0.25in;
+ }
+ ADDRESS {
+    text-align: right;
+ }
+--></style></head>
+<body style="color: rgb(0, 0, 0); background-color: white;" link="#000099" alink="#000099" vlink="#990099">
+
+<blockquote style="color: rgb(102, 102, 0);">
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<center>
+<h3>
+<font size="+2">Mobile Code Security</font></h3></center>
+</blockquote>
+</blockquote>
+
+<center>
+<h3>
+<font size="+2">Through Java Byte-Code Modification</font></h3></center>
+</blockquote>
+</blockquote>
+</blockquote>
+
+<h2>
+Objective</h2>
+
+<blockquote>This project is about modification of java bytecode to make
+mobile Java code more secure. We are most concerned about preventing malicious
+behaviour in e-commerce apps(e.g. business to business e-commerce).</blockquote>
+
+<h2>
+Technique</h2>
+
+<blockquote>We do this by changing the java bytecode on the fly before
+it runs on the client. The user writes a safety policy and certain safe
+classes based on which the filters do their modification.</blockquote>
+
+<h2>
+Applications</h2>
+
+<blockquote>Applet safety, Safety of corba based systems which use Java,
+Safety for Jini based code, Safety from forms of hostile mobile code other
+than Java, E-commerce based&nbsp; applications like SUN's Java Wallet,
+Hostile moble code which exploit implementation bugs of E-commerce based
+applications.</blockquote>
+
+<h2>
+Status</h2>
+
+<blockquote>We already&nbsp; have built our system and tested it on some
+example hostile mobile code. please see <a href="#Future%20Work">future work</a>
+also. At the moment this project is not very active. You may not find active
+support for your doubts or problems. (jul 19th,2000)</blockquote>
+
+<h2>
+Core Paper</h2>
+
+<blockquote><a href="Mobile_Code_Security/mobile-code-security-insik.pdf">Filter
+paper </a>(by Insik <i>et al.</i>)</blockquote>
+
+<h2>
+DownLoading, Installing and Using this System</h2>
+
+<h2>
+<font size="-1">(The filter code has not been under maintainance since sep,
+1999. newer versions of JavaClass Library and muffin proxy may cause problems.)</font></h2>
+
+<blockquote><b>Steps in Downloading and Installing:</b>
+<ul>
+<li>
+The Muffin Proxy can be downloaded from <a href="http://muffin.doit.org">here</a>.(it
+is free. Muffin and our filters are written in java and therefore ideally
+should work on any OS which has java1.1 or above. but we have tested our
+system only on linux.)</li>
+
+<li>
+Download the muffin Proxy (ver 0.8.1) and untar/unzip it.</li>
+
+<li>
+Download our Java-filter files from<a href="Mobile_Code_Security/javafilter.tar.gz">
+here.</a>(unix tar file)</li>
+
+<li>
+Copy the Java-filter files to the following directory. Assume the home
+directory for Muffin is /user/joe/Muffin. Then copy the filter files to
+/user/joe/Muffin /src/org/doit/muffin/filter.</li>
+
+<li>
+The current version of Java Class Library is organized very differently
+from the one I used to write my code. you can download a tar gunzziped
+java class library which i used from <a href="JavaClass.tar.gz">here</a>.</li>
+
+<li>
+If you want the latest Java Class Library you can Install it from here
+<a href="http://www.inf.fu-berlin.de/%7Edahm/JavaClass/">Java
+Class Library</a>. (the filters use this library)</li>
+
+<li>
+Run the intall script provided by muffin in /user/joe/Muffin</li>
+</ul>
+&nbsp;<b>Steps in using the system:</b>
+<ul>
+<li>
+Choose a machine which will run your proxy server muffin.</li>
+
+<li>
+Goto netscape's preferences and then go to "advanced" menu. Then go to
+"proxies" and open the manual proxy option in it. Fill in the IP address
+of the machine running the proxy in the "http proxy" and set port as "51966".
+(this information comes with Muffin Installation)</li>
+
+<li>
+Create two files in your home directory call .methodnames and .classnames.</li>
+
+<li>
+These files are read by the filters to get information on the&nbsp; methods
+and classes to modify.(sample <a href="Mobile_Code_Security/classnames.txt">.classnames
+</a>and
+<a href="Mobile_Code_Security/methodnames.txt">.methodnames
+</a>files).
+The syntax used in these files is very simple. In both .classnames and
+.methodnames files the class can be specified by giving its full api name
+for example java/awt/Dialog.</li>
+
+<li>
+sytax of .classnames file: write the complete api name of the class and
+write exactly one classname in every line.</li>
+
+<li>
+syntax of .methodnames file: write the complete api name of the class on
+one line and make sure to end it with a "." In the subsequent lines write
+down the methodnames of the methods to be modified. If the method is static
+then put "/static" at the end of the complete method name. Exactly one
+methodname should be written on one line.</li>
+
+<li>
+create a /user/joe/www/safeclass directory. Write your safe classes, compile
+them and put them in this directory.</li>
+
+<li>
+SafeClasses are classes which override the malicious behaviour of the incoming
+applet. As explained in the core paper the filters modify the applet to
+ensure that the safeclasses are invoked. as of now the user has to write
+the safeclasses. (please refer paper for more info on safeclasses. here
+is a sample <a href="Mobile_Code_Security/safeclass/SafeDialog.java">safeclass</a>
+for limiting the number of dialog boxes opened by an applet)</li>
+
+<li>
+Now you are all set to use the system to prevent annoying and malicious
+applets.</li>
+</ul>
+</blockquote>
+
+<h2>
+Running the System</h2>
+
+<blockquote><font size="+0">After Installing the system if you want to protect
+against any new malicious java applets then you will have to write your
+own safeclasses. (Unfortunately we cannot write all possible safeclasses)</font></blockquote>
+
+<h2>
+Notes About the Source Code and Libraries</h2>
+
+<blockquote>The filters provided in this page modify java-bytecode. These
+filters need to be plugged into a proxy server for proper operation. At
+the moment they are interfaced with an off the shelf proxy called <a href="http://muffin.doit.org/">Muffin</a>.
+To understand the code it is imperative that the person reading the code
+familiarise him/herself with the following pieces of information:
+<blockquote>
+<blockquote>
+<li>
+<a href="http://sw-technologies.com/java/langspec/">Java ByteCode Format
+and Virtual-Machine Spec</a></li>
+
+<li>
+<a href="http://www.inf.fu-berlin.de/%7Edahm/JavaClass/">Java Class Library</a></li>
+
+<li>
+The bytecode modification techniques used by our group at Stanford.(refer
+paper and code above)</li>
+</blockquote>
+</blockquote>
+</blockquote>
+
+<h2>
+Hostile Applet Sites</h2>
+
+<blockquote>
+<li>
+Mark Laude's <a href="http://www.rstcorp.com/hostile-applets/index.html">Hostile
+Applet Site.</a></li>
+
+<li>
+<a href="http://www.rstcorp.com">rstcorp's homepage</a> provides lots of
+info on hostile applets.</li>
+</blockquote>
+
+<h2>
+<a name="Future Work"></a>Future Work</h2>
+
+<blockquote>
+<li>
+Developing a formal, extremely easy to use safety language to specify safety
+policy.</li>
+
+<li>
+Develop a mechanism to automatically generate Safe Classes. (the main caveat
+of this method as of now is that the sys-admin/user will have to write
+their own safeclasses at the moment. mechanism to easily generate the safeclasses
+from a standardized safety policy would be a very cool idea)</li>
+
+<li>
+Apply the technique to more significant applications.</li>
+</blockquote>
+
+<h2>
+People</h2>
+
+<blockquote>
+<li>
+<b>Prof. John Mitchell. </b>(Principal Investigator)</li>
+
+<li>
+<b>Vijay Ganesh. </b>(re-implemented the filters in Java and made a working
+prototype with Muffin proxy)</li>
+</blockquote>
+
+<h2>
+Other Previous Contributors</h2>
+
+<blockquote>
+<li>
+<b>Amit Patel.</b></li>
+
+<li>
+<b>Insik Shin. </b>(Amit and Insik first developed the technique and implemented
+a proxy and filters in Python.)
+<hr></li>
+</blockquote>
+
+<address>
+This page is maintained by <a href="mailto:vganesh@theory.stanford.edu">Vijay
+Ganesh.</a></address>
+
+<address>
+(last modified 9th september,1999)</address>
+
+</body></html>

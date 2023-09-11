@@ -1,0 +1,441 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /><title>Vijay Ganesh</title>
+
+<link href="stevestyle.css" rel="stylesheet" type="text/css" /></head><body>
+<div class="a" id="container">
+<div id="header">
+  <img src="Engineering_web.gif" class="floatright" alt="Waterloo" />
+  
+<h1><small><small>Computer Security (ECE 458) <br />
+
+W2013</small></small></h1>
+
+</div><div id="menu">&nbsp;<a href="https://ece.uwaterloo.ca/%7Evganesh/teaching.html">Teaching Homepage</a> &nbsp;
+|&nbsp;&nbsp;&nbsp; <a href="ece458-W2013-introduction.pdf" target="_blank">Introduction</a><a style="font-weight: normal;" href="modules.html">|</a><a style="font-weight: normal;" href="modules.html"><span style="font-weight: bold;">Syllabus (Modules)</span></a><a style="font-weight: normal;" href="assignments.html">|</a><a href="assignments.html">projects/assignments/exams/solutions/schedule</a><a style="font-weight: normal;" href="assignments.html">|</a><a href="https://ece.uwaterloo.ca/%7Evganesh">Vijay's Homepage</a>
+</div>
+<p style="text-align: justify;" id="description">This course is an
+introduction to computer security. I will teach this course in 4
+modules. Each module consists of 4-6 lectures. The modules are
+described <a href="modules.html">here</a>.<br />
+</p><span style="font-weight: bold;">Lecture dates | Time | Place:</span> <span style="font-weight: normal;">Tue-Thu | 1-2:20 PM | QNC 2502<br />
+</span>
+<p style="text-align: justify;" id="description"><span style="font-weight: bold;"><span style="text-decoration: underline;">STAFF (Office hours)</span><br />
+</span></p>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">Instructor: Dr. Vijay Ganesh<br />
+      </td>
+      <td style="vertical-align: top;">Office: DC 2530<br />
+      </td>
+      <td style="vertical-align: top;">Date / Time: Tue - Thu / 2:30 - 3:30 PM<br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">TA: Carlos Moreno<br />
+      </td>
+      <td style="vertical-align: top;">Office: EIT 4103<br />
+      </td>
+      <td style="vertical-align: top;">Date / Time: Wed / 3:30 - 4:30 PM<br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">TA: Frank Imeson<br />
+      </td>
+      <td style="vertical-align: top;">Office: E5 4119<br />
+      </td>
+      <td style="vertical-align: top;">Date / Time: Fri / 1 - 2 PM<br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">TA: Alireza Sharifi<br />
+      </td>
+      <td style="vertical-align: top;">Office: DC 3576<br />
+      </td>
+      <td style="vertical-align: top;">Date / Time: Tue / 9 - 10 AM<br />
+      </td>
+    </tr>
+  </tbody>
+</table>
+<span style="font-weight: bold;"><br />
+</span>
+<p><big><span style="text-decoration: underline; font-weight: bold;">Lecture Schedule</span></big><span style="font-weight: bold;" /></p>
+<span style="font-weight: bold;"></span><table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; width: 74px; text-align: center;"><big><span style="font-weight: bold; text-decoration: underline;">Date</span></big><br />
+      </td>
+<td style="vertical-align: top; width: 463px; text-align: center;"><big style="text-decoration: underline; font-weight: bold;">Lectures</big><br />
+      </td>
+      <td style="vertical-align: top; text-align: center;"><big><span style="font-weight: bold; text-decoration: underline;">Assigned Reading (Books chapters, papers)</span></big><br />
+      </td>
+
+      
+    </tr>
+    <tr>
+      <td style="vertical-align: top; width: 74px;">Jan 8, 2013<br />
+      </td>
+<td style="vertical-align: top; text-align: justify; width: 463px;"><span style="font-weight: bold; text-decoration: underline;"><a href="Lecture-1.pdf">Lecture 1</a></span>:
+Introduction to computer security. basic concepts such as
+confidentiality, integrity, availability, SYN cookies, policy and
+mechanism, trust and assumptions. Material sourced from Matt Bishop's
+book <a href="http://www.amazon.ca/Introduction-Computer-Security-Matt-Bishop/dp/0321247442" target="_blank">Introduction to Computer Security</a>, and lecture slides by Professor
+Bill Young of UT, Austin.<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li><a href="http://cm.bell-labs.com/who/ken/trust.html">Reflections on Trusting Trust </a>by Ken Thompson.</li>
+      </ul>
+      </td>
+
+      
+    </tr><tr>
+      <td style="vertical-align: top; width: 74px;">Jan 10, 2013<br />
+      </td>
+<td style="vertical-align: top; text-align: justify; width: 463px;"><a style="font-weight: bold; text-decoration: underline;" href="https://courseware.stanford.edu/mod/file/download.php?file_guid=282852" target="_blank">Lecture 2</a> (Slides 1-25) (With
+permission and courtesy of Professor Dan Boneh of Stanford
+University): Control hijack attacks. Buffer overflow vulnerabilities
+and stack smashing attacks,
+integer overflow vulnerabilities, string format vulnerabilities.
+Attacks that combine different kinds of vulnerabilities.&nbsp; <br />
+      </td>
+      <td style="vertical-align: top;">
+      
+      <ul>
+        <li><a href="stack_smashing.pdf">Smashing the stack for fun and profit </a>by Aleph One.</li><li><a href="formatstring-1.2.pdf">Exploiting format string vulnerabilities</a> by scut/team teso</li>
+        <li><a href="http://www.amazon.com/Hacking-Art-Exploitation-Jon-Erickson/dp/1593271441">Hacking: The Art of Exploitation</a> by Jon Erickson</li>
+</ul><a href="http://www.amazon.com/Hacking-Art-Exploitation-Jon-Erickson/dp/1593271441">
+      </a><ul>
+<a href="http://www.amazon.com/Hacking-Art-Exploitation-Jon-Erickson/dp/1593271441">      </a></ul>
+
+<a href="http://www.amazon.com/Hacking-Art-Exploitation-Jon-Erickson/dp/1593271441">      </a></td>
+      
+      
+    </tr><tr>
+      <td style="vertical-align: top;">Jan 15, 2013<br />
+      </td>
+      <td style="vertical-align: top;"><a style="font-weight: bold; text-decoration: underline;" href="https://courseware.stanford.edu/mod/file/download.php?file_guid=282852">Lecture 3</a>
+(Slides 26 - 58) (With permission and courtesy of Professor Dan Boneh
+of Stanford University): Techniques to prevent, detect and recover from
+control hijack attacks. Typesafe languages. Address space layout
+randomization (ASLR). Stack canaries.&nbsp; Safe libraries (LibSafe).
+Heap-spraying attacks.&nbsp; Techniques to protect against heap-spray
+attacks.<br />
+      <br />
+      <a style="font-weight: bold; text-decoration: underline;" href="Lecture-Project-Ideas.pdf">Project guidlines</a><br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li><a href="aslr.pdf">ASLR Stack and Laugh Reference (Some details about ASLR)</a> by Tilo Muller.<br />
+ </li>
+        <li><a href="Stackguard.pdf">Stack Canaries by StackGuard</a> by Cowan et al.<br />
+        </li>
+        <li><a href="http://security.stackexchange.com/questions/20497/stack-overflows-defeating-canaries-aslr-dep-nx">Defeating ASLR, Canaries etc.</a> (Stack exchange discussion)<br />
+        </li>
+        <li><a href="p30-berger.pdf">Software needs seatbelts and airbags</a> by Emery Berger, U. of Mass, Armherst.<br />
+        </li>
+        <li><a href="bh-eu-07-sotirov-apr19.pdf">Heap Feng Shui in JavaScript</a> by Alex Sotirov</li>
+        <li><a href="http://www.wired.com/wired/archive/11.07/slammer.html">Slammer worm</a><br />
+        </li>
+
+      </ul>
+      </td>
+      
+      
+    </tr><tr>
+      <td style="vertical-align: top;">Jan 17, 2013<br />
+      </td>
+      <td style="vertical-align: top;"><a href="Lecture-4.pdf"><span style="font-weight: bold; text-decoration: underline;">Lecture 4</span></a>:
+Testing, analysis and verification for security. Automated testing
+techniques, program analysis for security, fuzzing, whitebox fuzzing,
+model-checking and advanced verification techniques.<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li><a href="http://en.wikipedia.org/wiki/Fuzz_testing">Fuzzing</a><br />
+        </li>
+        <li><a href="https://ece.uwaterloo.ca/%7Evganesh/Publications_files/vg2006-EXE-CCS.pdf">Automatically generating inputs of death</a> by Cadar et al. (Concolic or dynamic symbolic testing)</li>
+        <li><a href="https://ece.uwaterloo.ca/%7Evganesh/Publications_files/vg-ICSE2009-BuzzFuzz.pdf">Information-flow based whitebox fuzzing</a> by Ganesh et al.</li>
+        <li><a href="http://seclab.stanford.edu/pcl/mc/mc.html">Model checking for security protocols</a> by Mitchell et al.</li>
+        <li>Nice Stackoverflow <a href="http://stackoverflow.com/questions/411682/introduction-to-static-analysis">page on program analysis</a>.</li>
+        <li><a href="http://fa11.pbworks.com/w/page/44280322/FrontPage">Automated bug-finding and debugging</a> by Koushik Sen.<br />
+        </li>
+
+
+      </ul>
+</td>
+      
+      
+    </tr><tr>
+      <td style="vertical-align: top;">Jan 22, 2013 <br />
+      </td>
+      <td style="vertical-align: top;"><a href="Lecture-5.pdf"><span style="font-weight: bold; text-decoration: underline;">Lecture 5</span></a>: Malware, computer
+viruses, worms, trojan horses, detailed description of the Stuxnet worm
+and comparison with the Aurora worm.<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li><a href="http://www.amazon.com/Stuxnet-Microscope-Revision-Targeted-Attacks/dp/B007USOZ10">Stuxnet under the microscope</a></li>
+        
+      </ul>
+      </td>
+      
+      
+    </tr><tr>
+      <td style="vertical-align: top;">Jan 24, 2013<br />
+      </td>
+      <td style="vertical-align: top;"><a style="font-weight: bold; text-decoration: underline;" href="Lecture-6.pdf">Lecture 6</a>: Malware analysis.
+Static and dynamic techniques to detect malware. Signature-based
+detection. Polymorphism and metamorphism. Semantic-aware detection.
+Obfuscation. Dynamic information-flow tracking for runtime monitoring.
+Explicit and implicit taint.<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>
+      <a href="http://www.google.ca/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=2&amp;cad=rja&amp;ved=0CD8QFjAB&amp;url=http%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fdownload%3Fdoi%3D10.1.1.102.3399%26rep%3Drep1%26type%3Dpdf&amp;ei=8aQBUcrWCObM2QX63oHgCQ&amp;usg=AFQjCNHEZNvTf73bOZDhhqKDU3x2gtr7lA&amp;bvm=bv.41524429,d.b2I">Semantic-aware static malware detection</a><br />
+        </li>
+        <li><a href="http://appanalysis.org/">Taintdroid</a></li>
+        <li><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4413008&amp;tag=1">Limits of static analysis for detecting malware</a></li>
+      </ul>
+</td>
+      
+    </tr><tr>
+      <td style="vertical-align: top;">Jan 29, 2013<br />
+      </td>
+      <td style="vertical-align: top;"><a style="font-weight: bold; text-decoration: underline;" href="Lecture-7.pdf">Lecture 7</a><span style="font-weight: bold; text-decoration: underline;">:</span>
+SAT solvers for software engineering and computer security. Why we need
+SAT solvers. Concolic testing revisited. Basic DPLL SAT solver with
+backjumping.<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+<li style="text-align: left;"><a href="http://minisat.se/" target="_blank">MiniSAT Solver<br />
+</a></li><li style="text-align: left;"><a href="http://fmv.jku.at/biere/">Lingeling Solver</a></li>
+        <li style="text-align: left;">The <a href="https://ece.uwaterloo.ca/%7Evganesh/TEACHING/W2013/SATSMT/grasp-1999.pdf">Grasp paper</a> by Joao Marques-Silva et al.<br />
+        </li>
+        <li style="text-align: left;">The <a href="https://ece.uwaterloo.ca/%7Evganesh/TEACHING/W2013/SATSMT/zchaff-DAC2001.pdf">zCHAFF paper</a> by Lintao Zhang et al.<br />
+        </li>
+        <li style="text-align: left;"><a href="https://ece.uwaterloo.ca/%7Evganesh/TEACHING/W2013/SATSMT/SATSolvers-Survey.pdf">Survey paper</a> on SAT solvers by Selman et al.<br />
+        </li>
+      </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="vertical-align: top;">Jan 31, 2013<br />
+      </td>
+      <td style="vertical-align: top;"><a style="font-weight: bold; text-decoration: underline;" href="Lecture-8.pdf">Lecture 8</a><span style="font-weight: bold; text-decoration: underline;">:</span>
+	Basics of cryptography. One-time pad. Stream and block ciphers. MACs. Public-key cryptography. Uses of cryptography. <br />
+      </td>
+      <td style="vertical-align: top;">
+      <br />
+</td>
+    </tr><tr>
+      <td style="vertical-align: top;">Feb 5, 2013<br />
+      </td>
+      <td style="vertical-align: top;"><span style="font-weight: bold;"><a style="text-decoration: underline;" href="Lecture-9.pdf">Lecture 9</a>: </span>Side-channel analysis and attacks. Timing, power, cache,...<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Feb 12, 2013<br />
+      </td>
+      <td style="vertical-align: top;"><span style="font-weight: bold;"><a style="text-decoration: underline;" href="Lecture-10.pdf">Lecture 10</a>: </span>Motivation
+for public-key cryptography, Basic number theory, Diffie-Hellman key
+exchange protocol, RSA public-key encryption scheme, digital signatures<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Feb 14, 2013<br />
+      </td>
+      <td style="vertical-align: top;"><a style="text-decoration: underline;" href="Lecture-11.pdf"><span style="font-weight: bold;">Lecture 11</span></a>:
+Cryptographic hash functions. Properties such as collision resistance
+(weak and strong), inversion resistance. How hash functions work.<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Feb 26, 2013<br />
+      </td>
+      <td style="vertical-align: top;"><a href="Lecture-12.pdf"><span style="font-weight: bold; text-decoration: underline;">Lecture 12</span></a>: (also available in <a href="browser-security.pptx">pptx</a> format): Browser security. How browsers work. Same-origin Policy. JavaScript and XSS attacks.<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Feb 28, 2013<br />
+      </td>
+      <td style="vertical-align: top;"><a href="CSRF-Lecture13.pptx"><span style="font-weight: bold; text-decoration: underline;">Lecture 13</span></a> (pptx format): CSRF (Cross-Site Request Forgery) attacks<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Mar 5, 2013<br />
+      </td>
+      <td style="vertical-align: top;"><a href="huang_usenixsecurity12_slides.pdf"><span style="text-decoration: underline; font-weight: bold;" /></a>Review of material covered so far in preparation for the mid-term<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Mar 6, 2013<br />
+      </td>
+      <td style="vertical-align: top;">Mid-term<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Mar 7, 2013<br />
+      </td>
+      <td style="vertical-align: top;">No class<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Mar 12, 2013<br />
+      </td>
+      <td style="vertical-align: top;"><a href="huang_usenixsecurity12_slides.pdf"><span style="text-decoration: underline; font-weight: bold;">Lecture 14</span>:</a> Click-jacking attacks (Excellent Talk by <a href="https://www.linshunghuang.com/" target="_blank">David Lin-shung Huang</a> of CMU) ; Discussion of solutions to mid-term exam questions<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Mar 14, 2013<br />
+      </td>
+      <td style="vertical-align: top;">Lecture 15: Security in control systems by Professor Shreyas Sundaram. Detailed analysis of the Stuxnet virus.<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li><a href="http://vimeo.com/25118844">Anatomy of the Stuxnet virus (a short video)</a><br />
+        </li>
+      </ul>
+</td>
+    </tr><tr>
+      <td style="vertical-align: top;">Mar 21, 2013<br />
+      </td>
+      <td style="vertical-align: top;"><a style="font-weight: bold; text-decoration: underline;" href="network-security.pptx">Lecture 16 (pptx format)</a>: Network security. Basics of TCP/IP and BGP. TCP Spoofing. BGP attacks. DNS cache poisoning attacks.<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Mar 26, 2013<br />
+      </td>
+      <td style="vertical-align: top;"><a style="font-weight: bold; text-decoration: underline;" href="03-secure-architecture.pptx">Lecture 17 (pptx format):</a> The problem with formal verification (undecidable) and model-checking (PSPACE-complete). Principles
+of secure design: Isolation, compartmentalization, principle of least
+privilege, principle of safe defaults, access control (ACLs,
+capabilities and role-based).<br />
+ </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li><a href="building-secure-systems.pdf">OS Security (Morrie Gasser. 1988)</a></li>
+        <li><a href="Operating_System_Security_%28Synthesis_Lectures_on_Information_Security,_Privacy,_and_Trust%29.pdf">OS Security (Trent Jaeger. 2008)</a><br />
+        </li>
+        <li><a href="SecureLinux.pdf">Secure Unix and Linux programming</a><br />
+        </li>
+      </ul>
+</td>
+    </tr><tr>
+      <td style="vertical-align: top;">Mar 28, 2013<br />
+      </td>
+      <td style="vertical-align: top;">Lecture 18 (Overview of computer security concepts. Distributed Denial of Service attacks)<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">April 2, 2013<br />
+      </td>
+      <td style="vertical-align: top;"><a style="text-decoration: underline; font-weight: bold;" href="Security%20-%202013-04-02.pptx">Lecture 19 (pptx format)</a>: Lecture by Dr. Glenn Wurster from Blackberry. Security in the real world.<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">April 4, 2013<br />
+      </td>
+      <td style="vertical-align: top;">Project demo starting 1 PM @ EIT 3142<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Apr 17, 2013<br />
+      </td>
+      <td style="vertical-align: top;"><big style="font-weight: bold; color: rgb(204, 0, 0); text-decoration: underline;">Final Exam from 9 AM - 11:30 AM in Rooms RCH 103, 105</big><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+
+
+
+
+
+
+
+
+  </tbody>
+</table>
+<span style="font-weight: bold; text-decoration: underline;"><br /></span>
+<h6><big><big><big><span style="font-weight: bold; text-decoration: underline;">ACKNOWLEDGEMENTS</span></big></big></big></h6>
+<span style="font-weight: bold; text-decoration: underline; color: black;">
+</span><span style="color: black;">
+I would like to
+acknowledge the following people who have been very kind in sharing
+with me the lecture materials, notes etc. from their respective courses, and given me permission to use
+them as I wish in this course.
+
+
+
+</span>
+<p style="text-align: justify; color: black;" id="description">Professor Dan Boneh (Stanford)<br />
+
+
+
+Professor Matt Bishop (UC, Davis)<br />
+
+
+
+Professor David Brumley (CMU)<br />
+Professor Kevin Du (Syracuse)<br />
+Professor Mahesh Tripunitara (Waterloo)<br />
+
+
+
+Professor Koushik Sen (Berkeley)<br />
+
+
+
+Professor William D. Young (UT, Austin)<br />
+
+
+
+Professor Konstantin (Kosta) Beznosov (University of British Columbia)<br />
+Professor Cristian Cadar (Imperial College, London)<br />
+</p>
+
+
+<p style="text-align: justify;" id="description">
+</p>
+</div>
+
+
+
+</body></html>

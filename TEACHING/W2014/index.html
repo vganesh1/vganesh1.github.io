@@ -1,0 +1,639 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /><title>Vijay Ganesh</title>
+
+<link href="stevestyle.css" rel="stylesheet" type="text/css" /></head><body>
+<div class="a" id="container">
+<div id="header">
+  <img src="Engineering_web.gif" class="floatright" alt="Waterloo" />
+  
+<h1><small><small><span style="font-weight: bold;">Compilers (ECE 351)</span></small></small><small><small><span style="font-weight: bold;"><span style="font-weight: bold;"><br />
+
+Winter 2014<br />
+</span></span></small></small></h1>
+
+</div><div id="menu"><div style="text-align: left;">&nbsp;<a href="https://ece.uwaterloo.ca/%7Evganesh/teaching.html">Teaching Homepage</a><a href="assignments.html">|</a><a href="https://ece.uwaterloo.ca/%7Evganesh">Vijay Ganesh Homepage</a></div>
+
+</div>
+<p style="text-align: justify;" id="description">This course is about compiler construction. Topics include<br />
+</p>
+
+<ul>
+  <li><span style="font-weight: bold;">Basics (Lexical Analysis and Parsing): </span>What is a Compiler? Stages of Compilation. Lexical Analysis. Symbol Tables. Parsing<br />
+</li>
+  <li><span style="font-weight: bold;">Formal Languages: </span>Regular Languages, Context-free Grammars,...</li>
+  <li><span style="font-weight: bold;">Different Categories of Programming Languages: </span>Imperative, Declarative,...<br />
+  </li>
+  <li><span style="font-weight: bold;">Type Checking</span>: What is typing? Why is it useful? Different forms of Typing</li>
+  <li style="font-weight: bold;">Compiler Optimizations and Code Generation: <span style="font-weight: normal;">Static analysis for optimization</span><br />
+</li>
+  <li><span style="font-weight: bold;">Runtime Support<br />
+</span></li>
+</ul>
+<p style="text-align: left; font-weight: bold; color: rgb(153, 0, 0);" id="description"><big>Final Exam: Wednesday April 23rd/9-11:30 AM/MC4020<br />
+Lectures:&nbsp; Mondays and Fridays/10:00-11:20 AM/RCH-103 (<a href="http://www.adm.uwaterloo.ca/cgi-bin/cgiwrap/infocour/salook.pl?level=under&amp;sess=1141&amp;subject=ECE&amp;cournum=351">Class Schedule</a>)<br />
+</big></p>
+
+<p style="text-align: left; font-weight: bold; color: black; text-decoration: underline;" id="description"><big style="font-weight: bold;"><big>Staff</big></big></p>
+
+
+
+<span style="font-weight: bold;">
+</span>
+
+
+  
+<big><span style="font-weight: bold; text-decoration: underline;" /></big>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="1" cellspacing="1">
+
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;">Instructor</td>
+      <td style="vertical-align: top;">Vijay Ganesh<br />
+      </td>
+      <td style="vertical-align: top;">Office Hours: By Appointment (DC 2530)<br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">TAs<br />
+      </td>
+      <td style="vertical-align: top;">Leo Passos<br />Wenzhu Man<br />
+      </td>
+      <td style="vertical-align: top;">Office Hours: Thursdays 1 - 2:30 PM (DC&nbsp; 2544) <br />
+Office Hours: Wednesdays 2 - 3:30 PM (DC 2553)<br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Lab Instructor<br />
+      </td>
+      <td style="vertical-align: top;">Mohamed Hassan<br />
+      </td>
+      <td style="vertical-align: top;">Present during the lab hours.<br />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<span style="font-weight: bold;"><br />
+<big><span style="text-decoration: underline;">Lecture Schedule</span></big><br />
+<br />
+</span><big style="color: rgb(204, 102, 0); font-weight: bold;">
+</big><span style="font-weight: bold;"><table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+<tr><td style="vertical-align: top; width: 15%; text-align: center;"><big><span style="font-weight: bold; text-decoration: underline;">Date</span></big><br />
+      </td>
+<td style="vertical-align: top; text-align: center; width: 300px;"><big><span style="font-weight: bold; text-decoration: underline;">Lectures Slides and Outline</span></big><br />
+      </td>
+      <td style="vertical-align: top; text-align: center;"><big><span style="font-weight: bold; text-decoration: underline;">Detailed Lecture Description, Notes and References</span></big><br />
+      </td>
+      
+
+    </tr>
+    <tr>
+      <td style="vertical-align: top; width: 92px; text-align: left;">Monday Jan 6, 2014 (Theory Lecture)<br />
+</td>
+<td style="vertical-align: top; width: 300px; text-align: justify;">
+      <ul>
+        <li><a href="ece351-winter2014-outline.pdf">Course outline</a></li></ul>
+</td><td style="vertical-align: top; font-weight: bold;"><span style="font-weight: normal;">Topics Covered:<br />
+      </span>
+      <ul style="font-weight: normal;">
+        <li>Course outline</li>
+        <li>Computability and complexity basics<br />
+        </li>
+        <li>
+What is a compiler? Why you need it?</li>
+        <li>Stages of compilation</li>
+      </ul>
+      <span style="font-weight: normal;">
+</span></td></tr><tr style="font-weight: bold;">
+      <td style="vertical-align: top;"><span style="font-weight: normal;">Friday Jan 10, 2014 (Lab Lecture)</span><br />
+</td>
+      <td style="vertical-align: top; font-weight: normal;">
+      <ul>
+        <li>Lab #1: Chapters 0 and 1 of the <a href="ECE351-LabManual.pdf" target="_blank">Lab Manual</a></li>
+        
+
+        <li><a href="lectures/lecture01-02.pdf" target="_blank">Lecture #1-#2 slides</a> (Courtesy Jon Eyolfson)<br />
+        </li>
+
+      </ul>
+</td>
+      <td style="vertical-align: top;"><span style="font-weight: normal;">Topics covered:<br />
+</span>
+      <ul>
+        <li><span style="font-weight: normal;">Lab logistics</span></li>
+        <li><span style="font-weight: normal;">Basics of regular expressions<br />
+          </span></li>
+      </ul>
+</td>
+    </tr><tr>
+
+      <td style="vertical-align: top;">Monday Jan 13, 2014 (Theory Lecture)<br />
+</td>
+      <td style="vertical-align: top;">
+      <ul>
+      
+        
+        <li><a href="lectures/lecture03.pdf" target="_blank">Lecture #3 </a>(Lexical Analysis)<br />
+        </li>
+        <li><a href="lectures/lecture04.pdf" target="_blank">Lecture #4</a> (Implementation of Lexical Analysis)<br />
+        </li>
+
+<ul>
+        
+      </ul>
+      <ul>
+      </ul>
+
+</ul></td>
+      <td style="vertical-align: top;">Topics covered:<br />
+      <ul>
+        <li>Regular expressions and non-deterministic finite automata (NFA)<br />
+        </li>
+        <li>Lexical analysis and implementation of lexical analysis</li>
+      </ul>
+
+        <ul>
+        
+        
+
+        
+
+      </ul>
+</td>
+    </tr>
+<tr>
+      <td style="vertical-align: top;">Friday Jan 17, 2014 (Lab Lecture)<br />
+</td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li><a href="lectures/lecture04.pdf" target="_blank">Lecture #4</a> continued (NFA-DFA, RE-DFA)</li>
+        <li><a href="lectures/lecture05.pdf" target="_blank">Lecture #5</a> (Parsers)</li>
+        <li><a href="lectures/lecture06.pdf">Lecture #6</a> (Recursive-descent parsers)<br />
+        </li>
+
+        
+        <li>Lab #2: Chapter 2 of the <a href="ECE351-LabManual.pdf" target="_blank">Lab Manual</a><br />
+        </li>
+      </ul>
+</td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li>Context-free grammars, Extended Backus-Naur Form (EBNF) <br />
+</li>
+        <li>Parsing<br />
+        </li>
+
+        <li>Regular expression to NFAs to DFAs conversion<br />
+</li>
+        <li>Lab #2<br />
+        </li>
+      </ul>
+</td></tr><tr>
+      <td style="vertical-align: top;">Sat Jan 18, 2014<br />
+(assignment)<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li><a href="assignments/ece351-assignment_1.pdf" target="_blank">Assignment</a> on regular expressions and DFAs<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Mon Jan 20, 2014<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>First, Follow, Predict Sets (Lecture #7)<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li>Predictive parsers</li>
+        <li>Computing First, Follow sets</li>
+        <li>(Professor Rayside lecture notes will be provided soon)<br />
+        </li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Fri Jan 24, 2014<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>Predict Sets, LL(1) parsers (Lecture #7)<br />
+        </li>
+        <li>Lab #3: 3a. parse tree vs AST vs subclass hierarchy. 3b. equals() vs isomorphic() vs equivalent()<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+
+      <ul>
+<li>LL(1) parsers<br />
+</li><li>Computing First, Follow, Predict sets</li>
+        <li>(Professor Rayside lecture notes will be provided soon)</li>
+      </ul>
+
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Mon Jan 27, 2014<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>Revisiting Ambiguity in Context-free Grammars (<a href="lectures/lecture08.pdf" target="_blank">Lecture #8</a>)</li>
+        <li>Introduction to Bottom-up Parsing (<a href="lectures/lecture09.pdf" target="_blank">Lecture #9</a>)<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li>Ambiguity, precedence, associativity</li>
+        <li>Bottom-up parsing, LR, LALR<br />
+        </li>
+      </ul>
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Fri Jan 31, 2014<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>Bottom-up parsers continued (<a href="lectures/lecture10.pdf" target="_blank">Lecture #10</a>)</li>
+        <li>Lab #4: Simplifier for the language F<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li>Handles, shift-reduce parsers, shift-reduce, reduce-reduce conflicts<br />
+        </li>
+        <li>How to check equivalence of Boolean formulas using SAT solvers<br />
+        </li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Mon Feb 3, 2014<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>Semantic analysis (<a href="lectures/lecture11.pdf" target="_blank">Lecture #11</a>)<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li>Basics of semantic analysis</li>
+        <li>Scope: dynamic and static</li>
+        <li>Types: dynamic and static. <br />
+        </li>
+        <li>Typing rules. Type inference and checking.<br />
+        </li>
+      </ul>
+
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Fri Feb 7, 2014<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>Semantic analysis part 2 (<a href="lectures/lecture12.pdf" target="_blank">Lecture #12</a>)<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li>Type systems: inference rules<br />
+        </li>
+        <li>Abstract syntax trees (ASTs)</li>
+      </ul>
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Mon Feb 10, 2014<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>Runtime environment (<a href="lectures/lecture13.pdf" target="_blank">Lecture #13</a>)<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li>Layout of binaries (machine code)</li>
+        <li>Activation records</li>
+        <li>Code segment, data, stack and heap<br />
+        </li>
+      </ul>
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Fri Feb 14, 2014<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>Memory layout, unsafe programming languages and computer security (<a href="lectures/lecture14.pdf">Lecture #14</a>)<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li>Revisiting memory layout</li>
+        <li>Buffer overflows</li>
+        <li>Control-hijack attacks (stack-smashing, ret-2-libc,...)</li>
+        <li>Defense mechanisms (ASLR,...)<br />
+        </li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Fri Feb 14, 2014 (review lectures)<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>Regular languages review (<a href="lectures/lecture15.pdf" target="_blank">Lecture #15</a>)<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li>Regular languages</li>
+        <li>Regular expressions</li>
+        <li>Pumping lemma<br />
+        </li>
+      </ul>
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Mon Mar 3, 2014<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>Lab 6 &amp; 7 (<a href="lectures/lecture16.pdf">Lecture #16</a>)<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Parboiled_%28Java%29">Java Parboiled</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Parsing_expression_grammar">Parsing Expression Grammars</a></li>
+        <li><a href="lectures/peg.pdf" target="_blank">Paper on Parsing Expression Grammars</a><br />
+        </li>
+
+        <li>Lab 6 &amp; 7 (Visitor vs. Interpreter Design Pattern)<br />
+        </li>
+      </ul>
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Fri Mar 7, 2014&nbsp;&nbsp; (review lectures)<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>Context-free languages/grammar review (<a href="lectures/CFG_Review.pdf">Lecture #17</a>)<br />
+        </li>
+        <li>Bottom-up parser review (<a href="lectures/parser-review.pdf">Lecture #18</a>)<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li>Context-free languages/grammars, and their properties</li>
+        <li>Regular closure</li>
+        <li>Bottom-up parsing, Shift-reduce parsers<br />
+        </li>
+      </ul>
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Mon Mar 10, 2014<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>Code generation (<a href="lectures/lecture19.pdf">Lecture #19</a>)<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li>Code generation</li>
+        <li>MIPS assembly</li>
+        <li>Stack-based machine</li>
+        <li>Code generation for maintaining activation records</li>
+        <li>Code generation for object-oriented languages<br />
+        </li>
+      </ul>
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Fri Mar 14, 2014<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>Local code optimization (<a href="lectures/lecture20.pdf">Lecture #20</a>)<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li>Local optimizations</li>
+        <li>Constant folding, Copy propagation, algebraic simplification, dead code elimination,...<br />
+        </li>
+      </ul>
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Mon Mar 17, 2014<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>Global analysis and code optimization (<a href="lectures/lecture21.pdf" target="_blank">Lecture #21</a>)<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li>Global constant propagation (forward analysis)</li>
+        <li>Global liveness analysis (backward analysis)<br />
+        </li>
+      </ul>
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Fri Mar 21, 2014<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>Memory layout, control-hijack attacks and computer security review (<a href="lectures/lecture14.pdf">Lecture #14</a>)</li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+
+      
+      <ul>
+<li>Revisiting memory layout</li><li>Buffer overflows</li><li>Control-hijack attacks (stack-smashing, ret-2-libc,...)</li><li>Defense mechanisms (ASLR,...)</li>
+      </ul>
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Mon Mar 24, 2014<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        
+        <li>Register allocation (<a href="lectures/lecture22.pdf">Lecture #22</a>)<br />
+          </li>
+<ul>
+          
+        </ul>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li>Quick overview of memory hierarchy</li>
+        <li>Register allocation problem</li>
+        <li>Graph k-coloring problem</li>
+        <li>Spilling<br />
+        </li>
+      </ul>
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Fri Mar 28, 2014<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>Memory management (<a href="lectures/lecture23.pdf">Lecture #23</a>)<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li>Why we need automatic memory management (or garbage collection)<br />
+        </li>
+        <li>Mark and sweep</li>
+        <li>Stop and copy<br />
+        </li>
+        <li>Reference counting<br />
+        </li>
+      </ul>
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Mon Mar 31, 2014<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>First sample question set<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li>Questions on regular languages, regular expressions, context-free languages<br />
+        </li>
+      </ul>
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Fri April 4, 2014<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>Second sample question set<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li>Questions on CFGs, parsers, global optimizations, register allocation, ASLR<br />
+        </li>
+      </ul>
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Wed Apr 16, 2014<br />
+      </td>
+      <td style="vertical-align: top;">
+      <ul>
+        <li>Third sample question set<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top;">Topics Covered:<br />
+      <ul>
+        <li>Liveness analysis, register allocation, new questions from previously covered topics<br />
+        </li>
+      </ul>
+      </td>
+    </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tbody></table><br />
+<span style="font-weight: bold;">Acknowledgements:
+The course material is primarily based on the textbook "Crafing a Compiler" and books by Professor </span><a style="font-weight: bold;" href="https://ece.uwaterloo.ca/%7Edrayside/">Derek
+Rayside</a><span style="font-weight: bold;">. The lecture material is based on the slides by Professor <a href="http://theory.stanford.edu/%7Eaiken/" target="_blank">Alex Aiken</a> of <a href="http://www.stanford.edu/" target="_blank">Stanford University</a> and Professor <a href="http://www.csc.lsu.edu/%7Ebusch/" target="_blank">Costa Busch</a> of <a href="http://www.cse.lsu.edu/" target="_blank">LSU</a> with their permission. Occasionally, I may use other appropriate papers/books, which will be appropriately acknowledged.</span><br />
+</span></div></body></html>

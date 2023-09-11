@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /><title>Vijay Ganesh</title>
+
+<link href="stevestyle.css" rel="stylesheet" type="text/css" /></head><body>
+<div class="a" id="container">
+<div id="header">
+  <img src="Engineering_web.gif" class="floatright" alt="Waterloo" />
+  
+<h1><small><small>SAT/SMT Solver and Applications Graduate Seminar<br />
+
+W2013</small></small></h1>
+
+</div><div id="menu">
+<div style="text-align: left;">&nbsp;<a href="https://ece.uwaterloo.ca/%7Evganesh/teaching.html">Teaching Homepage</a><a href="assignments.html">|</a><a href="https://ece.uwaterloo.ca/%7Evganesh">Vijay Ganesh Homepage</a></div>
+
+</div>
+<p style="text-align: justify;" id="description">Introduction
+to Boolean SAT/SMT solvers and their applications. Internals of modern SAT solvers. Internals
+of modern SMT solvers. Symbolic execution-based testing. Model
+checking. Application of solvers to program analysis/synthesis. SAT/SMT
+solvers in programming language design.&nbsp; SAT/SMT solvers in
+AI. <br />
+</p>
+<div>
+</div>
+<p style="text-align: left;" id="description">Date | Time | Place: Wednesdays | 2-3:15 PM | E5-4106/4128</p>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; width: 92px; text-align: center;"><big><span style="font-weight: bold; text-decoration: underline;">Date</span></big><br />
+      </td>
+<td style="vertical-align: top; text-align: center; width: 300px;"><big><span style="font-weight: bold; text-decoration: underline;">Lectures</span></big><br />
+      </td>
+      <td style="vertical-align: top; text-align: center;"><big><span style="font-weight: bold; text-decoration: underline;">Relevant Papers and Books</span></big><br />
+      </td>
+      <td style="vertical-align: top; text-align: center; width: 203px;"><big><span style="text-decoration: underline; font-weight: bold;">Relevant Websites</span></big><br />
+      </td><td style="vertical-align: top; width: 144px;">&nbsp;<big><span style="font-weight: bold; text-decoration: underline;">Well-engineered SAT, SMT solvers and their applications</span></big><br />
+      </td>
+
+    </tr>
+    <tr>
+      <td style="vertical-align: top; width: 92px; text-align: justify;">Jan 9,2013<br />
+      </td>
+<td style="vertical-align: top; width: 300px; text-align: justify;"><span style="font-weight: bold;"><a style="font-weight: bold; text-decoration: underline;" href="SAT-Solvers-UWaterloo-Seminar-W2013.pdf" target="_blank">Lecture 1</a>:</span> <span style="font-weight: bold;">Introduction
+to&nbsp; SAT solvers.</span> Motivation for using SAT solvers in formal
+methods, testing, program analysis, synthesis. Internals of
+conflict-driven clause-learning (CDCL) SAT solvers. Techniques for
+Boolean propagation,
+conflict analysis, VSIDS branching heuristic, backjumping, two-watched
+literal scheme.<span style="font-weight: bold;"><br />
+      </span></td>
+      <td style="vertical-align: top;">
+      <div>
+      </div>
+<ul>
+        <li style="text-align: left;">The <a href="grasp-1999.pdf">Grasp paper</a> by Joao Marques-Silva et al.<br />
+</li>
+        <li style="text-align: left;">The <a href="zchaff-DAC2001.pdf">zCHAFF paper</a> by Lintao Zhang et al.<br />
+</li>
+        <li style="text-align: left;"><a href="SATSolvers-Survey.pdf">Survey paper</a> on SAT solvers by Selman et al.<br />
+        </li>
+        <li style="text-align: left;"><a href="history-of-satisfiability.pdf">History of Satisfiability</a> by John Franco<br />
+</li>
+        <li style="text-align: left;"><a href="http://www.iospress.nl/book/handbook-of-satisfiability/" target="_blank">Handbook of Satisfiability</a>. Edited by Biere, A., Heule, M., Van Maaren, H., Walsh, T.</li>
+
+      </ul>
+      </td>
+      <td style="vertical-align: top; width: 203px;">
+      <div style="text-align: justify;">
+      </div>
+<ul>
+        <li style="text-align: left;"><a href="http://www.satlive.org/">SAT Live!<br />
+</a></li>
+        <li style="text-align: left;"><a href="http://www.satcompetition.org/">Boolean SAT Solver competition website</a> (benchmarks and tools)<br />
+</li>
+        <li style="text-align: left;"><a href="http://people.csail.mit.edu/vganesh/summerschool/index.html">Boolean SAT/SMT Solver Summer school 2011 @ MIT</a> organized by Vijay Ganesh and Daniel Leberre.<br />
+        </li>
+      </ul>
+      </td><td style="vertical-align: top; width: 144px;"><ul>
+        <li style="text-align: left;"><a href="http://minisat.se/" target="_blank">MiniSAT Solver<br />
+</a></li>
+        <li style="text-align: left;"><a href="http://fmv.jku.at/biere/">Lingeling Solver<br />
+</a></li>
+      </ul>
+      </td>
+
+    </tr><tr>
+      <td style="vertical-align: top; width: 92px;">Jan 16, 2013<br />
+      </td>
+      <td style="vertical-align: top; width: 300px; text-align: justify;"><a href="SMT-Solvers-UWaterloo-Seminar-W2013-1.pdf"><span style="font-weight: bold; text-decoration: underline;">Lecture 2</span></a>: <span style="font-weight: bold;">Introduction to SMT solvers</span>.
+Core ideas: DPLL(T), combination of decision procedures, lazy vs. eager
+encoding. Important SMT theories: Bit-vectors, arrays, functions,
+strings, integer linear arithmetic, Peano arithmetic. Quantifiers. <br />
+      </td>
+      <td style="vertical-align: top; text-align: left;">
+      <ul>
+        <li><a href="http://www.iospress.nl/book/handbook-of-satisfiability/" target="_blank">Handbook of Satisfiability</a>. Edited by Biere, A., Heule, M., Van Maaren, H., Walsh, T.<br />
+        </li>
+        <li><a href="https://sites.google.com/site/stpfastprover/" target="_blank">STP</a> and <a href="http://people.csail.mit.edu/akiezun/hampi/" target="_blank">HAMPI</a> websites<br />
+        </li>
+        <li>CACM paper by Leo DeMoura and Nikolaj Bjorner<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top; width: 203px;">
+      <div style="text-align: left;">
+      </div>
+<ul>
+        <li style="text-align: left;"><a href="http://www.smtlib.org/">SMTLIB</a><br />
+        </li>
+        <li style="text-align: left;"><a href="http://smtcomp.sourceforge.net/2012/">SMT competition</a> website<br />
+        </li>
+      </ul>
+      </td>
+      <td style="vertical-align: top; width: 144px; text-align: left;">
+      <ul>
+        <li><a href="http://z3.codeplex.com/">Z3 </a>from Microsoft Research<br />
+        </li>
+        <li><a href="http://code.google.com/p/opensmt/">OpenSMT</a> by Roberto Bruttomesso<br />
+        </li>
+        <li><a href="https://sites.google.com/site/stpfastprover/">STP</a> and <a href="http://people.csail.mit.edu/akiezun/hampi/">HAMPI</a> from Stanford and MIT<br />
+</li>
+        <li><a href="http://cvc4.cs.nyu.edu/web/">CVC4</a> from NYU and U. of Iowa<br />
+        </li>
+
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; width: 92px;">Jan 23, 2013<br />
+      </td>
+      <td style="vertical-align: top; width: 300px;"><a href="BMC-using-SAT.pdf"><span style="font-weight: bold; text-decoration: underline;">Lecture 3</span></a>: <span style="font-weight: bold;"> Introduction to Bounded Model Checking by Dr. Shoham Ben-David<br />
+      </span></td>
+      <td style="vertical-align: top; text-align: left;"><br />
+      </td>
+      <td style="vertical-align: top; width: 203px;"><br />
+      </td>
+      <td style="vertical-align: top; width: 144px; text-align: left;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; width: 92px;">Jan 30, 2013<br />
+      </td>
+      <td style="vertical-align: top; width: 300px;"><a href="IC3.pdf"><span style="font-weight: bold; text-decoration: underline;">Lecture 4</span></a>: <span style="font-weight: bold;"> Introduction to IC3 model checking algorithm by Dr. Shoham Ben-David<br />
+      </span></td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top; width: 203px;"><br />
+      </td>
+      <td style="vertical-align: top; width: 144px;"><br />
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">Feb 6, 2013<br />
+      </td>
+      <td style="vertical-align: top;">No Class<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Feb 13, 2013<br />
+      </td>
+      <td style="vertical-align: top;">Lecture 5: Requirement analysis and software modelling by Rafael Olaechea<br />
+
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Feb 20, 2013<br />
+      </td>
+      <td style="vertical-align: top;">Lecture 6: Solvers for computer security and cryptography by Alireza Sharifi<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Feb 27, 2013<br />
+      </td>
+      <td style="vertical-align: top;">Lecture 7: Internals of MiniSAT by Frank Imeson<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">March 6, 2013<br />
+      </td>
+      <td style="vertical-align: top;"><a href="petervanbeek-constraint-programming.pptx"><span style="font-weight: bold; text-decoration: underline;">Lecture 8</span></a>: Constraint programming by Professor Peter Van Beek<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+<tr>
+      <td style="vertical-align: top;">March 13, 2013<br />
+      </td>
+      <td style="vertical-align: top;"><a style="text-decoration: underline; font-weight: bold;" href="2013-03-13%20solvers-itp.pdf">Lecture 9</a>: Solvers and higher-order theorem proving by Leopoldo <span email="lmt@cin.ufpe.br" name="Leopoldo Motta Teixeira" class="gD">Motta Teixeira</span>
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">March 20, 2013<br />
+      </td>
+      <td style="vertical-align: top;">Lecture 10: Concolic testing (aka dynamic symbolic testing) by Sandy Beidu<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">March 27, 2013<br />
+      </td>
+      <td style="vertical-align: top;">Lecture 11: Complexity theory talk by Professor Raman<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">April 3, 2013<br />
+      </td>
+      <td style="vertical-align: top;">Lecture 12: Debugging tools based on symbolic execution and solvers by Lei Zhang<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">April 10, 2013<br />
+      </td>
+      <td style="vertical-align: top;">Lecture 13: Solver-based program analysis for security testing and repair by Professor Frank Tip <br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr><tr>
+      <td style="vertical-align: top;">April 17, 2013<br />
+      </td>
+      <td style="vertical-align: top;">Lecture 14: Solvers in program analysis<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">April 24, 2013<br />
+      </td>
+      <td style="vertical-align: top;">Lecture 15: Model-checking revisited<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">May 1, 2013<br />
+      </td>
+      <td style="vertical-align: top;">Lecture 16: Proof-theoretic treatment of CDCL SAT solvers by Vijay Ganesh<br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+      <td style="vertical-align: top;"><br />
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p style="margin-left: 40px; text-align: justify;" id="description"><br />
+</p>
+
+<div style="font-family: Helvetica,Arial,sans-serif;" id="footer">
+<p align="center">Vijay Ganesh&nbsp; | Updated Oct 24, 2012 (The webpage design is courtesy Professor Stephen L. Smith)<br />
+</p>
+
+</div>
+</div>
+
+
+
+</body></html>

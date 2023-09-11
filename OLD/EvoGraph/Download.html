@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /><title>SATGraf: Download</title>
+
+<link href="assets/style.css" rel="stylesheet" type="text/css" /></head><body>
+<div class="a" id="container">
+<div id="header">
+  <img src="assets/images/Engineering_web.gif" class="floatright" alt="Waterloo" />
+  
+<h1><small><span style="color: rgb(51, 51, 255);">SATGraf SAT Visualization/Evolution Tool</span><small><small><small><br />
+<br />
+<span style="color: rgb(204, 0, 0);">&nbsp;<span style="font-weight: bold; color: black;">Zack Newsham, William Lindsay and Vijay Ganesh</span></span></small></small><br />
+</small></small>
+ </h1>
+
+  
+</div>
+	
+<div id="menu">	
+  <a href="Home.html">Home</a> |
+  <a href="Download.html">Download</a> |
+  <a href="Authors.html">Authors</a> |
+  <a href="Paper.html">Paper</a> |
+  <a href="Results.html">Results</a> |
+  <a href="License.html">License</a> |
+  <a href="Contact.html">Contact Us</a>
+</div>
+
+<big style="color: rgb(0, 102, 0);"><big><big><big><b><span style="font-size: 16pt;" /></b><span style="font-family: serif;" /></big></big><small>Download Link</small></big></big><br />
+<p style="text-align: justify;" id="description">
+	<a href="assets/SATGraf.jar" target="_blank">SATGraf.jar</a><br />
+</p>
+
+<big style="color: rgb(0, 102, 0);"><big><big><big><b><span style="font-size: 16pt;" /></b><span style="font-family: serif;" /></big></big><small>Instructions</small></big></big><br />
+<p style="text-align: justify;" id="description">
+	To run the jar above, use the following command from the terminal: <span style="font-style: italic;">java
+-jar SATGraf.jar &lt;path to input SAT formula&gt; &lt;tool&gt;
+&lt;community algorithm&gt; &lt;layout algorithm&gt; &lt;optional:
+number of conflicts&gt;</span>. Each of the options in the command above are explained bellow:
+</p>
+
+<ul style="margin-top: 0in;" type="disc">
+   <li class="MsoNormal" style="">
+   	path to input SAT formula
+	 </li>
+ 	 <ul style="margin-top: 0in;" type="disc">
+	 	 	<li class="MsoNormal" style="">
+	 			Path to the desired SAT input formula which has to follow proper CNF format conventions.
+	 		</li>
+ 	 </ul>
+ 	 
+	 <li class="MsoNormal" style="">
+   	tool options
+	 </li>
+	 <ul style="margin-top: 0in;" type="disc">
+	 	 	<li class="MsoNormal" style="">
+	 			community
+	 		</li>
+	 		<ul style="margin-top: 0in;" type="disc">
+		 	 	<li class="MsoNormal" style="">
+		 			Generate the graph with community structure of the input SAT formula.
+		 		</li>
+	 	  </ul>
+	 	  
+	 		<li class="MsoNormal" style="">
+	 			evolution
+	 		</li>
+	 		<ul style="margin-top: 0in;" type="disc">
+		 	 	<li class="MsoNormal" style="">
+Generate a series of graphs with community structure representing the
+evolution of the SAT formula as a SAT solver is solving it. </li>
+	 	  </ul>
+	 		
+	 		<li class="MsoNormal" style="">
+	 			implication
+	 		</li>
+	 		<ul style="margin-top: 0in;" type="disc">
+		 	 	<li class="MsoNormal" style="">
+Generate a graph where the nodes can be assigned a value and the graph
+will reflect this decision. (Currently does only uses the grid layout
+algorithm and does not use community algorithms. Work in progress.) </li>
+	 	  </ul>
+ 	 </ul>
+ 	 
+	 <li class="MsoNormal" style="">
+   	community algorithm options
+	 </li>
+	 <ul style="margin-top: 0in;" type="disc">
+	 	 	<li class="MsoNormal" style="">
+	 			cnm
+	 		</li>
+	 		<ul style="margin-top: 0in;" type="disc">
+		 	 	<li class="MsoNormal" style="">
+Clauset-Newman-Moore community detection algorithm. When compared with
+'ol', this will find higher quality communities but it is slower as a
+result. </li>
+	 	  </ul>
+	 		
+	 		<li class="MsoNormal" style="">
+	 			ol
+	 		</li>
+	 		<ul style="margin-top: 0in;" type="disc">
+		 	 	<li class="MsoNormal" style="">
+Online community detection algorithm. When compared with 'cnm', this
+will be much faster but does not guarantee communities of the same
+quality. </li>
+	 	  </ul>
+ 	 </ul>
+	 
+	 <li class="MsoNormal" style="">
+   	layout algorithm options
+	 </li>
+	 <ul style="margin-top: 0in;" type="disc">
+	 	 	<li class="MsoNormal" style="">
+	 			kk
+	 		</li>
+	 		<ul style="margin-top: 0in;" type="disc">
+		 	 	<li class="MsoNormal" style="">
+		 			A variation of the Kamada-Kawai force directed graph layout algorithm.
+		 		</li>
+	 	  </ul>
+	 		
+	 		<li class="MsoNormal" style="">
+	 			grid
+	 		</li>
+	 		<ul style="margin-top: 0in;" type="disc">
+		 	 	<li class="MsoNormal" style="">
+A simple grid pattern layout which groups communities together. It is
+fast but does not reflect the community structure as well. </li>
+	 	  </ul>
+ 	 </ul>
+	 
+	 <li class="MsoNormal" style="">
+   	optional: number of conflicts
+	 </li>
+	 <ul style="margin-top: 0in;" type="disc">
+	 	 	<li class="MsoNormal" style="">
+When using the evolution tool, you can specify after how many conflicts
+which the SAT solver encounters should SATGraf generate a graph.
+Example: if the number of conflicts is 2, a graph will be generated
+every 2 conflicts. If this option is not specified, it will be
+defaulted to 1. </li>
+ 	 </ul>
+</ul>
+
+</div></body></html>

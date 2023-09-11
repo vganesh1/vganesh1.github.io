@@ -1,0 +1,2 @@
+java/awt/Panel
+java/awt/Dialog

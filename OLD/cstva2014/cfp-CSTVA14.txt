@@ -1,0 +1,116 @@
+CALL FOR PAPERS
+
+CSTVA'14
+
+6th International workshop on Constraints in Software Testing,
+Verification and Analysis
+
+https://ece.uwaterloo.ca/~vganesh/cstva14.html
+
+A workshop of ICSE'14, 36th International Conference on Software
+Engineering, Hyderabad, India, 31st May - 7th June 2014
+
+IMPORTANT DATES:
+
+* Workshop paper submissions due January 14, 2014
+
+* Notification to authors February 17, 2014
+
+* Camera-ready copies of authors' papers March 14, 2014
+
+SUBMISSION DETAILS:
+
+Research papers: Authors are invited to submit original contributions,
+presenting novel ideas, results or systems in constraint-based
+software engineering. Papers should not be published or submitted
+elsewhere during the time of evaluation.
+
+Tool demo papers or fast abstract papers: Authors are invited to
+propose tool demonstrations or fast abstract, presenting new tools,
+new challenges or breaking results in constraint-based software
+engineering.
+
+Submitted papers must be in PDF format, formatted according to the ACM
+Formatting Guidelines. (Please see
+http://www.acm.org/sigs/publications/proceedings-templates LaTeX
+users, please use the "Option 2" style), and must not exceed the
+following size limits:
+
+* Research papers: max 10 pages for the main text, including figures,
+  tables, appendices, references may be included on up to 2 additional
+  pages
+
+* Tool demo/fast abstract papers: max 6 pages
+
+All accepted papers will be published in the workshop proceedings.
+
+TOPICS:
+
+Recent years have seen an increasing usage and consequent impact of
+Boolean SAT, SMT and Constraint Programming (CP or CSP) solvers in
+testing, verification and analysis of software systems. The primary
+reason for this is the dramatic improvement in the efficiency and
+expressive power of solvers. As newer and more powerful solvers are
+built, software engineering researchers dramatically scale existing
+applications such as symbolic-execution methods, or find unexpected
+applications for them, e.g., software product lines or fault
+localization methods.
+
+This workshop will bring together researchers in solvers and software
+engineering applications in order to raise the awareness of constraint
+solving in the broader software engineering research community, and
+encourage development of new applications based on tunable,
+extensible, and programmable solvers. The workshop will cover a broad
+range of topics where solvers have already made an impact, e.g.,
+symbolic-execution based testing, verification and analysis, as well
+as newer applications where their use is still nascent, e.g.,
+synthesis, software product lines and fault localization. Submission
+topics include, but are not limited to, the following:
+
+- Constraint-based analysis of programs and models
+- Constraint-based test input generation and fault localization
+- Solvers and computer security
+- SMT solvers for testing, verification, analysis, and synthesis
+- Programmable SMT solvers
+- Combinations of constraint solvers
+- Solvers for software product lines
+
+Following the 5 previous editions of this workshop, held first at the
+CP and then the ICST conferences, this year’s CSTVA workshop will
+be held at ICSE with the goal of strengthening the links between the
+solver and software engineering research communities. The workshop
+aims to encourage newer applications of solvers, showcase their rich
+extensible APIs, and act as a forum for feedback from users to solver
+developers.
+
+ORGANIZERS:
+
+Vijay Ganesh, Univ. Waterloo, Canada, vganesh@uwaterloo.ca
+Nicky Williams, CEA LIST, France, nicky.williams@cea.fr
+
+PROGRAM COMMITTEE:
+
+Kapil Vaswani, Microsoft Research, India
+Aditya Nori, Microsoft Research, India
+Rupak Majumdar, MPI Software Systems, Germany
+Joxan Jaffar, National University of Singapore, Singapore
+Frank Tip, University of Waterloo, Canada
+Koushik Sen, University of California, Berkeley, USA
+Cristian Cadar, Imperial College London, UK
+Arnaud Gotlieb, SIMULA, Norway and INRIA, France
+Frederic Dadeau, FEMTO-ST/INRIA, France
+Krzysztof Czarnecki, University of Waterloo, Canada
+Julian Dolby, IBM TJ Watson Center, USA
+Ofer Strichman, Technion, Israel
+Nikolaj Bjorner, Microsoft Research, USA
+Leonardo DeMoura, Microsoft Research, USA
+Francois Bobot, CEA LIST, France
+Sebastien Bardin, CEA LIST, France
+Sylvain Conchon, Universite Paris Sud, France
+Emina Torlak, University of California, Berkeley, USA
+Daniel LeBerre, Universite d'Artois, France
+Cesare Tinelli, University of Iowa, USA
+Chris Wintersteiger, Microsoft Research, UK
+Patrick Heymans, University of Namur, Belgium
+Marsha Chechik, University of Toronto, Canada
+Xiangyu Zhang, Purdue University, USA
