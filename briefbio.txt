@@ -1,21 +1,5 @@
 Vijay Ganesh Brief Bio
 ======================
-Dr. Vijay Ganesh is a professor of computer science at Georgia Tech. Prior to
-joining Georgia Tech in 2023, Vijay was a professor at the University of
-Waterloo in Canada from 2012 to 2023, a co-director of the Waterloo AI
-Institute from 2021 to 2023, and a research scientist at the Massachusetts
-Institute of Technology from 2007 to 2012. Vijay completed his PhD in computer
-science from Stanford University in 2007.
+Dr. Vijay Ganesh is a professor of computer science at Georgia Tech and the associate director of the Institute for Data Engineering and Science (IDEaS), also at Georgia Tech. Additionally, he is a co-founder and steering committee member of the Centre for Mathematical AI at the Fields Institute, and an AI Fellow at the BSIA in Waterloo, Canada. Prior to joining Georgia Tech in 2023, Vijay was a professor at the University of Waterloo in Canada from 2012 to 2023, a co-director of the Waterloo AI Institute from 2021 to 2023, and a research scientist at the Massachusetts Institute of Technology from 2007 to 2012. Vijay completed his PhD in computer science from Stanford University in 2007. 
 
-Vijay's primary area of research is the theory and practice of SAT/SMT solvers,
-and their application in AI, software engineering, security, mathematics, and
-physics. In this context he has led the development of many SAT/SMT solvers,
-most notably, STP, Z3str family of string solvers, AlphaZ3, MapleSAT,
-AlphaMapleSAT, and MathCheck. On the theoretical side, he works on topics in
-mathematical logic and proof complexity. More recently he has started working
-on AI problems that can be solved via combinations of automated reasoning and
-machine learning, notably the use of machine learning for efficient solvers and
-the use of solvers aimed at making AI more trustworthy, secure, and robust. For
-his research, Vijay has won over 30 awards, honors, and medals, including an
-ACM Impact Paper Award at ISSTA 2019, ACM Test of Time Award at CCS 2016, and a
-Ten-Year Most Influential Paper citation at DATE 2008.
+Vijay's primary area of research is the theory and practice of SAT/SMT solvers, combinations of machine learning and automated reasoning, and their application in neurosymbolic AI, software engineering, security, mathematics, and physics. In this context he has led the development of many SAT/SMT solvers, most notably, STP, Z3str family of string solvers, Z3-alpha, MapleSAT, AlphaMapleSAT, and MathCheck. He also leads the development of several neurosymbolic AI tools aimed at mathematics, physics, and software engineering. On the theoretical side, he works on topics in mathematical logic and proof complexity. For his research, Vijay has won over 35 awards, honors, and medals, including an ACM Impact Paper Award at ISSTA 2019, ACM Test of Time Award at CCS 2016, and a Ten-Year Most Influential Paper citation at DATE 2008.
